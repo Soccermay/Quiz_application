@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+        background-color: beige;
+        background-image: linear-gradient(315deg, #b8c6db 10%, #f5f7fa 100%);
+        font-family: "bubbles", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        overflow: hidden;
+        margin: 40px;
+}
+
+.quiz-container {
+    background-color: azure;
+    border-radius: 20px;
+    border: 10px solid black;
+    box-shadow: 0 0 10px 2px rgb(100, 100, 100, 0.1);
+    width: 600px;
+    max-width: 95vw;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(73, 153, 27);
+    color: rgb(226, 225, 224);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 0.8rem;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+button:focus {
+    background-color: rgb(151, 34, 126);
+}
