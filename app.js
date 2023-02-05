@@ -5,7 +5,7 @@ const quizData = [
     b: "Patrick Mahomes",
     c: "Josh Allen",
     d: "Joe Burrow",
-    correct: 'b',
+    correct: 'a',
 },
 {   
     question: "What does HTML stand for?",
@@ -24,7 +24,7 @@ const quizData = [
     correct: "c",
 },
 {   
-    question: "What year was JavaScript?",
+    question: "What year was JavaScript created?",
     a: "1994",
     b: "1995",
     c: "1996",
