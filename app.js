@@ -31,6 +31,14 @@ const quizData = [
     d: "2000",
     correct: "b",
 },
+{
+    question: "Who won the SuperBowl in 2020?",
+    a: "49ers",
+    b: "Chiefs",
+    c: "Eagles",
+    d: "Ravens",
+    correct: "b",
+}
 ];
 
 const quiz = document.getElementById("quiz");
